@@ -1,0 +1,22 @@
+# Contexto e Justificativa
+## 1. Contextualização
+O projeto do BairroDelivery propõem a criação de uma plataforma digital de delivery que consiga conectar clientes e estabelecimentos dentro de uma área de 5km, focando em restaurantes de bairro, ou seja, pequenos negócios. Ênfase no comercio local.
+
+## 2. Justificativa
+O projeto é justificado pela identificação dentro do mercado de delivery de uma falha da valorização do estabelecimento local, dessa forma, o sistema do BairroDelivery busca suprir esse gap de mercado, permitindo que o comercio local floresça. Busca-se produzir documentação técnica associada a confecção do projeto.
+
+# Objetivos
+## 1. Gerais
+### Técnico
+Desenvolver um aplicativo mobile e web que automatize o processo de pedidos de restaurantes de bairro (pequenos negocios)
+### Acadêmico 
+Elaborar e planejar a documentação de Software do aplicativo hipotético teorizado, simulando a criação dele.
+
+## 2. Especifico
+-Identificar as necessidades e desejos dos consumidores 
+-Definir os requisitos funcionais e não funcionais, bem como as regras de negocios
+-Delimitar o escopo do projeto e definir Stakeholders
+-Criar o projectBacklog
+-Construir diagramas UML
+-Definir os responsáveis (Project Owner, Scrum Master, Developer) pelas atividades.
+-Simular o uso do Scrum como metodologia ágil
