@@ -1,0 +1,52 @@
+## Objetivo do Produto
+
+Disponibilizar uma plataforma regional de delivery que permita a realização, o gerenciamento e a entrega de pedidos, conectando consumidores, restaurantes e entregadores em um raio de até 5 km.
+
+## Classificação de Prioridades
+
+A priorização dos itens será realizada utilizando o método MoSCoW:
+
+- Must Have: funcionalidades indispensáveis.
+- Should Have: funcionalidades importantes, mas não indispensáveis.
+- Could Have: funcionalidades desejáveis.
+- Won't Have: funcionalidades que não serão contempladas na versão atual.,
+
+## Estimativa de Esforço
+
+A estimativa de esforço será realizada utilizando Story Points, seguindo a sequência de Fibonacci:
+
+1, 2, 3, 5, 8, 13, 21.
+
+Os valores representam a complexidade, o esforço e as incertezas associados à execução de cada item.
+
+## Product Backlog
+
+| ID | Item do Backlog | História de Usuário | Prioridade | Story Points | Status |
+|---|---|---|---|---|---|
+| PB-001 | Cadastro de usuários | HU-001 | Must Have | 5 | Pendente |
+| PB-002 | Autenticação | HU-002 | Must Have | 5 | Pendente |
+| PB-003 | Controle de permissões | HU-020 | Must Have | 5 | Pendente |
+| PB-004 | Gerenciamento de restaurantes | HU-021 | Must Have | 5 | Pendente |
+| PB-005 | Gerenciamento de cardápios | HU-011 | Must Have | 8 | Pendente |
+| PB-006 | Controle de disponibilidade | HU-012 | Must Have | 3 | Pendente |
+| PB-007 | Consulta geográfica de restaurantes | HU-005 | Must Have | 8 | Pendente |
+| PB-008 | Visualização de cardápios | HU-006 | Must Have | 3 | Pendente |
+| PB-009 | Gerenciamento do carrinho | HU-007 | Must Have | 5 | Pendente |
+| PB-010 | Confirmação de pedidos | HU-008 | Must Have | 5 | Pendente |
+| PB-011 | Processamento de pagamentos | HU-008 | Must Have | 13 | Pendente |
+| PB-012 | Recebimento de pedidos | HU-013 | Must Have | 5 | Pendente |
+| PB-013 | Atualização do status dos pedidos | HU-014 | Must Have | 5 | Pendente |
+| PB-014 | Atribuição de entregadores | HU-016 | Must Have | 8 | Pendente |
+| PB-015 | Registro de coleta | HU-017 | Must Have | 3 | Pendente |
+| PB-016 | Confirmação de entrega | HU-018 | Must Have | 3 | Pendente |
+| PB-017 | Acompanhamento de pedidos | HU-009 | Must Have | 5 | Pendente |
+| PB-018 | Recuperação de senha | HU-003 | Should Have | 3 | Pendente |
+| PB-019 | Gerenciamento de perfil | HU-004 | Should Have | 3 | Pendente |
+| PB-020 | Histórico de pedidos | HU-010, HU-015 | Should Have | 5 | Pendente |
+| PB-021 | Histórico de entregas | HU-019 | Should Have | 3 | Pendente |
+| PB-022 | Monitoramento administrativo | HU-022 | Should Have | 5 | Pendente |
+| PB-023 | Relatórios operacionais | HU-023 | Could Have | 8 | Pendente |
+| PB-024 | Processamento de reembolsos | A definir | Must Have | 8 | Pendente |
+| PB-025 | Cancelamento de pedidos | A definir | Must Have | 5 | Pendente |
+
+
