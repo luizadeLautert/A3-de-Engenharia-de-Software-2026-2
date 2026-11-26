@@ -1,4 +1,4 @@
-Documento desenvolvido para levantar e explicar os requisitos funcionais esperados no sistema e regras de negocio associadas.
+Documento desenvolvido para levantar e explicar os requisitos funcionais esperados no sistema.
 
 # Requisitos Funcionais
 ##  Administrativo
