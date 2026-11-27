@@ -1,69 +1,78 @@
-## Módulos do Sistema
+# 2.4 DECOMPOSIÇÃO DO PROBLEMA
 
-| ID | Módulo | Responsabilidade | Requisitos Associados |
-|---|---|---|---|
+## 2.4.1 MÓDULOS DO SISTEMA
+
+| **ID** | **Módulo** | **Responsabilidade** | **Requisitos Associados** |
+| --- | --- | --- | --- |
 | MOD-001 | Gerenciamento de Usuários | Gerenciar contas, autenticação, perfis e permissões. | RF-001 a RF-005 |
-| MOD-002 | Restaurantes e Cardápios | Gerenciar estabelecimentos, produtos, preços e disponibilidade geográfica. | RF-006 a RF-010 |
-| MOD-003 | Gerenciamento de Pedidos | Gerenciar carrinhos, pedidos, histórico e status de preparação. | RF-011 a RF-016 |
-| MOD-004 | Gerenciamento de Entregas | Gerenciar a atribuição, coleta e conclusão das entregas. | RF-017 a RF-020 |
-| MOD-005 | Pagamentos | Gerenciar formas de pagamento e confirmação de transações. | RF-021 a RF-023 |
-| MOD-006 | Administração | Gerenciar usuários, estabelecimentos e indicadores operacionais. | RF-024 a RF-027 |
+| MOD-002 | Restaurantes e Cardápios | Gerenciar estabelecimentos, produtos, preços e disponibilidade geográfica. | RF-009 a RF-013 |
+| MOD-003 | Gerenciamento de Pedidos | Gerenciar carrinhos, pedidos, histórico, cancelamentos e status de preparação. | RF-014 a RF-019, RF-031 |
+| MOD-004 | Gerenciamento de Entregas | Gerenciar a atribuição, coleta, rastreamento e conclusão das entregas. | RF-020 a RF-023, RF-028; RNF-024 |
+| MOD-005 | Pagamentos | Gerenciar formas de pagamento, confirmação, reembolsos e conciliação financeira de transações Pix. | RF-024 a RF-027, RF-029, RF-030 |
+| MOD-006 | Administração | Gerenciar usuários, estabelecimentos e indicadores operacionais. | RF-005 a RF-008; RNF-024 |
 
-## Decomposição dos Módulos
+É importante ressaltar que o requisito de acessibilidade (RNF-010) não se refere somente a um módulo em específico, devendo ser respeitado nas interfaces de todos os módulos definidos.
 
-### Gerenciamento de Usuários
+## 2.4.2 DECOMPOSIÇÃO DOS MÓDULOS
 
-- Cadastro de usuários.
-- Autenticação.
-- Recuperação de senha.
-- Gerenciamento de perfis.
-- Controle de permissões.
+### 2.4.2.1 GERENCIAMENTO DE USUÁRIOS
 
-### Restaurantes e Cardápios
+- Cadastro dos usuários no sistema;
+- Autenticação dos usuários cadastrados;
+- Recuperação da senha de acesso;
+- Gerenciamento dos dados dos perfis;
+- Controle das permissões associadas a cada perfil.
 
-- Consulta de estabelecimentos.
-- Filtragem geográfica.
-- Consulta de cardápios.
-- Gerenciamento de produtos.
-- Controle de disponibilidade.
+### 2.4.2.2 RESTAURANTES E CARDÁPIOS
 
-### Gerenciamento de Pedidos
+- Consulta dos estabelecimentos;
+- Filtragem dos estabelecimentos com base na localização geográfica;
+- Consulta dos cardápios dos restaurantes;
+- Gerenciamento dos produtos que compõem os cardápios;
+- Controle da disponibilidade dos produtos.
 
-- Gerenciamento do carrinho.
-- Confirmação de pedidos.
-- Recebimento de pedidos.
-- Acompanhamento da preparação.
-- Histórico de pedidos.
+### 2.4.2.3 GERENCIAMENTO DE PEDIDOS
 
-### Gerenciamento de Entregas
+- Gerenciamento dos produtos no carrinho;
+- Confirmação dos pedidos realizados;
+- Recebimento dos pedidos pelos restaurantes;
+- Acompanhamento do andamento da preparação;
+- Consulta do histórico de pedidos;
+- Cancelamento de pedidos.
 
-- Atribuição de entregadores.
-- Consulta de entregas.
-- Registro de coleta.
-- Confirmação de entrega.
-- Histórico de entregas.
+### 2.4.2.4 GERENCIAMENTO DE ENTREGAS
 
-### Pagamentos
+- Atribuição dos pedidos aos entregadores;
+- Consulta das entregas atribuídas;
+- Registro da coleta do pedido;
+- Confirmação da conclusão da entrega;
+- Consulta do histórico de entregas;
+- Rastreamento da localização do entregador em tempo real.
 
-- Seleção da forma de pagamento.
-- Registro de transações.
-- Confirmação de pagamentos.
-- Processamento de reembolsos.
+### 2.4.2.5 PAGAMENTOS
 
-### Administração
+- Escolha da forma de pagamento;
+- Registro das transações realizadas;
+- Confirmação dos pagamentos;
+- Realização do processo de reembolso;
+- Realização de pagamentos através de Pix;
+- Conciliação financeira automática dos pagamentos realizados através de Pix.
 
-- Gerenciamento de contas.
-- Gerenciamento de estabelecimentos.
-- Monitoramento de operações.
-- Emissão de relatórios.
+### 2.4.2.6 ADMINISTRAÇÃO
 
-## Dependências entre Módulos
+- Gerenciamento das contas dos usuários;
+- Gerenciamento dos estabelecimentos cadastrados;
+- Acompanhamento das operações realizadas na plataforma;
+- Emissão dos relatórios operacionais;
+- Acompanhamento do tempo médio de entrega.
 
-| Módulo | Dependências |
-|---|---|
+## 2.4.3 DEPENDÊNCIAS ENTRE MÓDULOS
+
+| **Módulo** | **Dependências** |
+| --- | --- |
 | Gerenciamento de Usuários | Nenhuma dependência funcional direta. |
 | Restaurantes e Cardápios | Gerenciamento de Usuários. |
-| Gerenciamento de Pedidos | Gerenciamento de Usuários; Restaurantes e Cardápios. |
+| Gerenciamento de Pedidos | Gerenciamento de Usuários; Restaurantes e Cardápios; integração com Pagamentos para confirmação e reembolso. |
 | Pagamentos | Gerenciamento de Pedidos. |
 | Gerenciamento de Entregas | Gerenciamento de Usuários; Gerenciamento de Pedidos. |
 | Administração | Todos os demais módulos. |
