@@ -1,9 +1,10 @@
-Pasta contendo documentação do projeto da BairroDelivery usando a metodologia Scrum. 
+# 4 PLANEJAMENTO ÁGIL E CICLO DE SPRINTS
 
-Tópicos:
-- Estimativas de esforço (Story Points ou Pontos de Função).
-- Definição e duração das Sprints.
-- Sprint Backlog.
-- Rede de precedência.
-- Cronograma do projeto.
-- Diagrama de Gantt.
+## Documentos
+
+- [4.1 LINHA DE BASE E METAS DE RELEASE](01%20Linha%20de%20Base%20e%20Metas%20de%20Release.md)
+- [4.2 ESTIMATIVAS CONSOLIDADAS](02%20Estimativas%20Consolidadas.md)
+- [4.3 SPRINT PLANNING E SPRINT BACKLOG](03%20Sprint%20Planning%20e%20Sprint%20Backlog.md)
+- [4.4 REDE DE PRECEDÊNCIA](04%20Rede%20de%20Preced%C3%AAncia.md)
+- [4.5 CRONOGRAMA ESTIMADO — GANTT](05%20Cronograma%20e%20Gantt.md)
+- [4.6 ACOMPANHAMENTO E BURNDOWN](06%20Acompanhamento%20e%20Burndown.md)
