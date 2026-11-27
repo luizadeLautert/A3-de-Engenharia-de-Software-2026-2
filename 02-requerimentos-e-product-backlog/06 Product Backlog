@@ -1,28 +1,32 @@
-## Objetivo do Produto
+# 2.6 PRODUCT BACKLOG
 
-Disponibilizar uma plataforma regional de delivery que permita a realização, o gerenciamento e a entrega de pedidos, conectando consumidores, restaurantes e entregadores em um raio de até 5 km.
+## 2.6.1 OBJETIVO DO PRODUTO
 
-## Classificação de Prioridades
+Dados os objetivos previamente estabelecidos, o produto a ser desenvolvido consiste em uma plataforma de delivery que possibilite a conexão entre consumidores, restaurantes e entregadores dentro de um raio de 5 km, utilizando-se de taxas reduzidas, pagamento e conciliação via Pix, rastreamento em tempo real e funcionalidades para inclusão de PCD.
 
-A priorização dos itens será realizada utilizando o método MoSCoW:
+## 2.6.2 CLASSIFICAÇÃO DE PRIORIDADES
 
-- Must Have: funcionalidades indispensáveis.
-- Should Have: funcionalidades importantes, mas não indispensáveis.
-- Could Have: funcionalidades desejáveis.
-- Won't Have: funcionalidades que não serão contempladas na versão atual.,
+Para definir a prioridade de cada um dos itens do Product Backlog, será utilizado o método MoSCoW, que permite classificar os itens em quatro categorias, conforme:
 
-## Estimativa de Esforço
+- Must Have: são as funcionalidades indispensáveis para o produto;
+- Should Have: são as funcionalidades que, por mais que sejam importantes, não são indispensáveis;
+- Could Have: são as funcionalidades desejáveis para o produto;
+- Won't Have: são as funcionalidades que não serão contempladas na versão atual.
 
-A estimativa de esforço será realizada utilizando Story Points, seguindo a sequência de Fibonacci:
+## 2.6.3 ESTIMATIVA DE ESFORÇO
+
+Para estimarmos o esforço necessário para a implementação de cada item, usaremos Story Points, utilizando os seguintes valores da sequência de Fibonacci:
 
 1, 2, 3, 5, 8, 13, 21.
 
-Os valores representam a complexidade, o esforço e as incertezas associados à execução de cada item.
+É importante entender que os valores utilizados não correspondem a uma unidade de tempo, somente estabelecem uma relação entre a complexidade, o esforço e as incertezas dos diversos itens.
 
-## Product Backlog
+Os valores dos itens PB-026 a PB-030 foram definidos como estimativas iniciais, cabendo aos Developers validar os valores atribuídos.
 
-| ID | Item do Backlog | História de Usuário | Prioridade | Story Points | Status |
-|---|---|---|---|---|---|
+## 2.6.4 PRODUCT BACKLOG
+
+| **ID** | **Item do Backlog** | **História de Usuário** | **Prioridade** | **Story Points** | **Status** |
+| --- | --- | --- | --- | --- | --- |
 | PB-001 | Cadastro de usuários | HU-001 | Must Have | 5 | Pendente |
 | PB-002 | Autenticação | HU-002 | Must Have | 5 | Pendente |
 | PB-003 | Controle de permissões | HU-020 | Must Have | 5 | Pendente |
@@ -45,8 +49,11 @@ Os valores representam a complexidade, o esforço e as incertezas associados à 
 | PB-020 | Histórico de pedidos | HU-010, HU-015 | Should Have | 5 | Pendente |
 | PB-021 | Histórico de entregas | HU-019 | Should Have | 3 | Pendente |
 | PB-022 | Monitoramento administrativo | HU-022 | Should Have | 5 | Pendente |
-| PB-023 | Relatórios operacionais | HU-023 | Could Have | 8 | Pendente |
-| PB-024 | Processamento de reembolsos | A definir | Must Have | 8 | Pendente |
-| PB-025 | Cancelamento de pedidos | A definir | Must Have | 5 | Pendente |
-
-
+| PB-023 | Relatórios operacionais | HU-023 | Must Have | 8 | Pendente |
+| PB-024 | Processamento de reembolsos | HU-029 | Must Have | 8 | Pendente |
+| PB-025 | Cancelamento de pedidos | HU-030 | Must Have | 5 | Pendente |
+| PB-026 | Rastreamento em tempo real | HU-024 | Must Have | 13 | Pendente |
+| PB-027 | Integração de pagamento via Pix | HU-025 | Must Have | 8 | Pendente |
+| PB-028 | Conciliação financeira via Pix | HU-026 | Must Have | 8 | Pendente |
+| PB-029 | Acessibilidade das interfaces | HU-027 | Must Have | 8 | Pendente |
+| PB-030 | Monitoramento do tempo médio de entrega | HU-028 | Must Have | 5 | Pendente |
