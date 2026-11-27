@@ -1,8 +1,7 @@
-Esta pasta contém a documentação das ferramentas e práticas utilizadas para gerenciar o projeto BairroDelivery.
+# 5 GERÊNCIA DE CONFIGURAÇÃO E PRÁTICAS COLABORATIVAS
 
-Tópicos:
-- Configuração do repositório Git/GitHub.
-- Padrões de commits e branches.
-- Integração e Entrega Contínua (CI/CD).
-- Ferramenta de gerenciamento ágil.
-- Organização do quadro Kanban/Scrum.
+## Documentos
+
+- [5.1 CONTROLE DE VERSÃO E BRANCHING](01%20Controle%20de%20Vers%C3%A3o%20e%20Branching.md)
+- [5.2 ESTEIRA DE INTEGRAÇÃO E ENTREGA CONTÍNUA (CI/CD)](02%20Esteira%20CI%20CD.md)
+- [5.3 FERRAMENTA DE GESTÃO E QUADRO KANBAN/SCRUM](03%20Ferramenta%20de%20Gest%C3%A3o%20e%20Quadro%20Kanban%20Scrum.md)
