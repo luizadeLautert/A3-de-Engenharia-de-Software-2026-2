@@ -1,10 +1,7 @@
-Esta pasta contém os registros de acompanhamento, revisão e encerramento do projeto BairroDelivery.
+# 5 GERÊNCIA DE CONFIGURAÇÃO E PRÁTICAS COLABORATIVAS
 
-Tópicos:
-- Registros das reuniões Daily Scrum.
-- Acompanhamento das atividades das Sprints.
-- Sprint Reviews.
-- Sprint Retrospectives.
-- Relatório final do projeto.
-- Lições aprendidas.
-- Termo de aceite e encerramento.
+## Documentos
+
+- [5.1 CONTROLE DE VERSÃO E BRANCHING](01%20Controle%20de%20Vers%C3%A3o%20e%20Branching.md)
+- [5.2 ESTEIRA DE INTEGRAÇÃO E ENTREGA CONTÍNUA (CI/CD)](02%20Esteira%20CI%20CD.md)
+- [5.3 FERRAMENTA DE GESTÃO E QUADRO KANBAN/SCRUM](03%20Ferramenta%20de%20Gest%C3%A3o%20e%20Quadro%20Kanban%20Scrum.md)
